@@ -16,4 +16,5 @@ Cách để ko bị conflict
 B1: Checkout qua master và pull master mới nhất từ server về
 B2: Check out qua nhánh và merge vs master
 
-vi ăn cứt
+vi ăn cứt 
+coin card
