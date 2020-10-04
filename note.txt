@@ -1,0 +1,17 @@
+Khởi tạo git : git init
+Kết nối project vs repo: git remote add origin https://github.com/thevihaylam/demo-github
+Kiểm tra trang thái của source code: git status
++File màu đỏ đã thay đổi nhưng chưa save
++File màu xanh đã thay đổi và được save
+Save những file đã thay đổi (working copy => staging area): git add file-name hoặc.(tất cả các file)
+Commit những thay đổi (staging area => local repository): git commit -m "message"
+Lần đầu tiên xài git cần chạy 2 lần này:
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+Đẩy code lên trên server(local repository => remote repository):git push -u origin master
+Tạo ra 1 brand mới: git checkout -b branch-name
+Chuyển branch: git branch branch-name
+Cập nhật code từ remote về local: git pull
+Cách để ko bị conflict
+B1: Checkout qua master và pull master mới nhất từ server về
+B2: Check out qua nhánh và merge vs master
