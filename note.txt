@@ -15,6 +15,7 @@ Cập nhật code từ remote về local: git pull
 Cách để ko bị conflict
 B1: Checkout qua master và pull master mới nhất từ server về
 B2: Check out qua nhánh và merge vs master
-
-vi ăn cứt 
-coin card
+xem tất cả branch : git branch
+xóa branch
++không thế đứng ở branch hiện tại để xóa nó
++chuyển qua 1 branch khác và chạy lệnh: git branch -D branch-name
